@@ -1,4 +1,4 @@
-a=int(input("introduzca la primera nota: "))
+=int(input("introduzca la primera nota: "))
 b=int(input("introduzca la segunda nota: "))
 
 c=(a+b)/2
