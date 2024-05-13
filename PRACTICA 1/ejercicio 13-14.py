@@ -1,0 +1,6 @@
+num=int(input("Llamadas realizadas: "))
+print("**********************")
+num1=int(input("Tiempo en llamada: "))
+y=(num*12)+(num1*1.5)
+print("**********************\nTotal a pagar:","$",y)
+print("**********************")
