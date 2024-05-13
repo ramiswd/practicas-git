@@ -37,8 +37,7 @@ def cantidad_de_div(num):
             suma=suma+1
     return suma
 
-def esprimo(num):
-    return sumadiv(num)==2
+
 
 
 def suma_div(num):
@@ -47,3 +46,23 @@ def suma_div(num):
         if num%i==0:
             suma=suma+i
     return suma
+
+def numero_perfecto(num):
+    suma=0
+    for i in range(1,num):
+        if num%i==0:
+            suma=suma+i
+    return suma 
+
+def cartel(palabra):
+   print((len(palabra)+4)*"*")
+   print("*",palabra,"*")
+   return((len(palabra)+4)*"*")
+
+def repeticion_letra(palabra,caracter):
+    suma=0
+    for letra in palabra:
+        if letra==caracter:
+            suma=suma+1
+    return suma
+

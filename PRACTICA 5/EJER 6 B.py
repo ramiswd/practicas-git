@@ -1,7 +1,7 @@
 def gritar(unacadena):
-    print("¡¡¡",end="")
-    print(unacadena,end="")
-    print("!!!")
+    return ("¡¡¡"+ unacadena+"!!!")
+    
+   
 
 
 a=input("introduzca una palabra")
