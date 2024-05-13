@@ -39,3 +39,11 @@ def cantidad_de_div(num):
 
 def esprimo(num):
     return sumadiv(num)==2
+
+
+def suma_div(num):
+    suma=0
+    for i in range(1,num+1):
+        if num%i==0:
+            suma=suma+i
+    return suma
