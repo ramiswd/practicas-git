@@ -66,3 +66,9 @@ def repeticion_letra(palabra,caracter):
             suma=suma+1
     return suma
 
+def divisoresPropios(num):
+    divisores=[]
+    for i in range (1,num):
+        if num%i==0:
+            divisores.append(i)
+    return divisores
