@@ -4,12 +4,14 @@ def cant(lista):
         cont+=1
     return cont
 
-def promedio (lista):
-    suma=0
+def suma (lista):
+    total=0
     for elemento in lista:
-        suma=suma+elemento
-    return suma
+        total=total+elemento
+    return total
 
 lista=[1.12,9.50,10]
 
-print(promedio(lista)/cant(lista))
+promedio=suma(lista)/cant(lista)
+
+print(promedio)

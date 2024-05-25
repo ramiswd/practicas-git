@@ -1,11 +1,7 @@
-def canta(letra,cadena):
-    cont=0
-    for char in cadena:
-        if char==letra:
-            cont+=1
-    return cont
+def division(a,b):
+    return a/b
 
-a=input("introduzca una palabra: ")
-b=input("introduzca un caracter")
+a=10
+b=2
 
-print(canta(a,b))
+print(division(a,b))

@@ -11,6 +11,6 @@ def repetido(lista):
             return True
     return False
 
-lista=[1,2,3,4,5,5,5]
+lista=[1,2,3,4,5]
 
 print(repetido(lista))

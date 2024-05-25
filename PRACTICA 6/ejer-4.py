@@ -1,5 +1,5 @@
 def lamascorta(lista1,lista2):
-    if len(lista1)>len(lista2):
+    if lista1>lista2:
         return lista2
     else:
         return lista1
