@@ -12,7 +12,7 @@ if not resideEnBuenosAires:
     else:
         puntajeTotal +=1.5
 else:
-    if palabraClave in ['capo', 'leal']:
+    if palabraClave =="capo" or palabraClave=="leal":
         puntajeTotal +=2.1
     else:
         puntajeTotal +=0.5
